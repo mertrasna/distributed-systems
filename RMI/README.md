@@ -15,13 +15,13 @@ Open two terminals
 
 ### Terminal A - compile & run the server
 ```bash
-cd part1/server
+cd RMI/server
 javac *.java
 java Server
 ```
 ### Terminal B - compile & run the client
 ```bash
-cd part1/client
+cd RMI/client
 javac *.java
 java Client
 ```
