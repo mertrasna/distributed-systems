@@ -1,0 +1,32 @@
+# Ignore compiled Java bytecode
+*.class
+
+# Ignore log files
+*.log
+
+# Ignore temporary files created by editors or OS
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# Ignore build and output directories (if any)
+bin/
+out/
+build/
+target/
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Ignore VS Code project files
+.vscode/
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore RMI-generated stub/skeleton classes (if compiled manually)
+*_Stub.class
+*_Skel.class

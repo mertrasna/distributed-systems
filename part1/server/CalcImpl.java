@@ -5,8 +5,7 @@ public class CalcImpl implements ICalc {
   public int factorial(int n) throws RemoteException,
          InvalidInputException {
            if (n < 0) {
-             throw new InvalidInputException("factorial: n must be >= 0
-                 (got " + n + ")");
+             throw new InvalidInputException("factorial: n must be >= 0 (got " + n + ")");
            }
            int res = 1;
            for (int i = 2; i <= n; i++) res *= i;
@@ -33,8 +32,7 @@ public class CalcImpl implements ICalc {
   @Override
   public double sqrt(double x) throws RemoteException,
          InvalidInputException {
-           // To be implemented: make sure to use the invalid input
-           exception
+           // To be implemented: make sure to use the invalid input exception
              return 0.0;
   }
 }
